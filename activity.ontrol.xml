@@ -1,0 +1,13 @@
+<Button
+    android:id="@+id/btnDroneControl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Drone Control"
+    android:layout_marginBottom="12dp"
+    android:backgroundTint="#4CAF50"
+    android:textColor="#FFFFFF" />
+val btnDroneControl = findViewById<Button>(R.id.btnDroneControl)
+btnDroneControl.setOnClickListener {
+    // ضع هنا معرف الدرون المستهدف للاختبار
+    DroneControl.takeControl(this, "DRONE-001")
+}
