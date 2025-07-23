@@ -3,4 +3,4 @@ A penetration and defense program that has the ability to jam satellites and pho
 🛰 SS7 Exploit (Placeholder)
 🛸 DroneControl (Placeholder)
 🛰 SatelliteHijack (Placeholder)
-📡 كل الوحدات الدفاعية شغالة (PacketSniffer, Radar, NetworkScanner, SMSManager)
+📡  (PacketSniffer, Radar, NetworkScanner, SMSManager)
